@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Rodar o jogo (cenario 1)",
+            "request": "launch",
+            "mainClass": "cars.engine.Window"
+        },
+        {
+            "type": "java",
+            "name": "Rodar direto na Combinacao A (cenario 7)",
+            "request": "launch",
+            "mainClass": "cars.engine.Window",
+            "vmArgs": "-Dscenario=7"
+        },
+        {
+            "type": "java",
+            "name": "Rodar o Benchmark (medicoes)",
+            "request": "launch",
+            "mainClass": "cars.engine.Benchmark",
+            "console": "integratedTerminal"
+        }
+    ]
+}

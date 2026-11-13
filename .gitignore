@@ -1,0 +1,7 @@
+out/
+bin/
+fontes.txt
+*.class
+.idea/
+*.iml
+.DS_Store
